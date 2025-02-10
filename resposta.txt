@@ -1,1 +1,77 @@
 Coloque aqui todas as respostas das práticas indicadas no README.md
+
+1- {
+    I - 172.18.0.0 / 255.255.0.0
+    II - 172.18.0.1
+    III - 2 ROTAS
+}
+
+2- {
+    I - 172.18.0.2/16
+    II - 172.18.0.0/16
+    III - eth0
+}
+
+3- {
+    I - 142.251.132.228
+    II - 192.0.66.51
+    III - 104.18.26.22
+    IV - 150.165.254.52
+}
+
+4- {
+    I -
+        - time = 0.035ms
+
+    II -
+        - time=31.901 ms
+        - time=171.217 ms
+        - time=76.745 ms
+        - O dce esta inacessivel e apareceu a seguinte mensagem = ping: unknown host
+
+    III - 
+        - time=58.623 ms
+        - time=59.287 ms
+        - time=58.776 ms
+        - O ping do rnp é o mais rapido nas respostas, o que pode influenciar
+        nas no tempo de resposta pode variar dependendo dos exemplos, algumas 
+        influencias são: a quantidade de rotas, a qualidade do equipamento, 
+        a distancia fisica, etc...
+}
+
+
+5 - {
+    I - algums redes privadas não permitem o acesso aos dados que o identificador
+    quer acessar, e como os dados estão restritos ele coloca os "***" pra mostrar
+    que aquela rede é privada.
+    II - Não.
+}
+
+6 - {
+    I - os resultados não são os mesmos
+    II - há, são informações diferentes, pois enquanto o comando "netstat -tulnp"
+    mostra as portas abertas e conexões o comando "netstat -r" mostra as rotas,
+    os caminhos que cada um percorre.
+}
+
+7 - {
+    I - o servidor respondeu e esta ativo: Connected to www.ufpb.br. 
+    II - não consegui acessar. Podemos diferenciar o problema de rede de um 
+    problema de seriço pelo tipo do erro que nesse cado foi de serviço onde 
+    aparece o seguinte aviso: Name or service not known
+}
+
+8 - {
+    I - o mtr mostra as rotas, latencia e a perca de pacotes em tempo real
+    II - serve para identificar problemas de redes, a qualidade da conexão, 
+    a perca de pacotes, etc...
+    III -
+        - host: por onde o pacote passou
+        - loss%: porcentagem de perca de pacotes
+        - snt: quantidade de pacotes enviados no teste
+        - last: tempo da ultima postagem em ms
+        - avg: media de tempo de resposta
+        - best: o melhor tempo de resposta
+        - wrst: pior tempo de resposta
+        - stdev: desvio padrão, variação do tempo de resposta
+}
